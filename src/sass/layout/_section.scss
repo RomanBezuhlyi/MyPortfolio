@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500&family=Rubik+Microbe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500&family=Rubik+Microbe&display=swap');
+
+.section {
+  width: 100%;
+  height: auto;
+}
+
+.hero {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(./../images/configuration.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 12%;
+  &::after {
+    content: '';
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 20px;
+    background-color: #1f1e1e;
+    border-radius: 8px;
+    color: #f24141;
+    top: 60px;
+    right: 0;
+  }
+}
+
+.hero__content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+
+  &__title {
+    font-family: 'Rubik Microbe', cursive;
+    color: #42aaf5;
+    font-size: 65px;
+    margin-bottom: 30px;
+  }
+
+  &__text {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 400;
+    color: #f5cb42;
+    font-size: 32px;
+  }
+}

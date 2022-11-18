@@ -1,7 +1,7 @@
 // breakpoints
-// $mobile: 480px;
-// $tablet: 768px;
-// $desktop: 1280px;
+$mobile: 320px;
+$tablet: 768px;
+$desktop: 1280px;
 
 // site colors palette
 
@@ -12,41 +12,41 @@ $fontPrimary: 'Poppins', sans-serif;
 $transition: all 0.3s ease-in-out;
 
 // breakpoints map for respondTo() mixin
-// $breakpoints: (
-//   'mobile': (
-//     min-width: #{$mobile},
-//   ),
-//   'tablet': (
-//     min-width: #{$tablet},
-//   ),
-//   'desktop': (
-//     min-width: #{$desktop},
-//   ),
-//   '-mobile': (
-//     max-width: #{$mobile - 1},
-//   ),
-//   '-tablet': (
-//     max-width: #{$tablet - 1},
-//   ),
-//   '-desktop': (
-//     max-width: #{$desktop - 1},
-//   ),
-//   'mobile-tablet': (
-//     min-width: #{$mobile},
-//   )
-//   #{and} (
-//     max-width: #{$tablet - 1},
-//   ),
-//   'mobile-desktop': (
-//     min-width: #{$mobile},
-//   )
-//   #{and} (
-//     max-width: #{$desktop - 1},
-//   ),
-//   'tablet-desktop': (
-//     min-width: #{$tablet},
-//   )
-//   #{and} (
-//     max-width: #{$desktop - 1},
-//   ),
-// ) !default;
+$breakpoints: (
+  'mobile': (
+    min-width: #{$mobile},
+  ),
+  'tablet': (
+    min-width: #{$tablet},
+  ),
+  'desktop': (
+    min-width: #{$desktop},
+  ),
+  '-mobile': (
+    max-width: #{$mobile - 1},
+  ),
+  '-tablet': (
+    max-width: #{$tablet - 1},
+  ),
+  '-desktop': (
+    max-width: #{$desktop - 1},
+  ),
+  'mobile-tablet': (
+    min-width: #{$mobile},
+  )
+  #{and} (
+    max-width: #{$tablet - 1},
+  ),
+  'mobile-desktop': (
+    min-width: #{$mobile},
+  )
+  #{and} (
+    max-width: #{$desktop - 1},
+  ),
+  'tablet-desktop': (
+    min-width: #{$tablet},
+  )
+  #{and} (
+    max-width: #{$desktop - 1},
+  ),
+) !default;
