@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500&family=Rubik+Microbe&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500&family=Rubik+Microbe&display=swap');
-
 .section {
   width: 100%;
   height: auto;
@@ -24,9 +21,9 @@
     align-items: center;
     width: 700px;
     height: 20px;
-    background-color: #1f1e1e;
+    background-color: var(--bg-color);
     border-radius: 8px;
-    color: #f24141;
+    color: var(--additional-color);
     top: 60px;
     right: 0;
   }
@@ -41,16 +38,14 @@
   width: 700px;
 
   &__title {
-    font-family: 'Rubik Microbe', cursive;
-    color: #42aaf5;
+    color: var(--accent-color);
     font-size: 65px;
     margin-bottom: 30px;
   }
 
   &__text {
-    font-family: 'Comfortaa', cursive;
     font-weight: 400;
-    color: #f5cb42;
+    color: var(--text-color);
     font-size: 32px;
   }
 }

@@ -3,9 +3,10 @@ html {
 }
 
 body {
-  //   font-family: $fontPrimary;
-  //   color: getColor('secondary');
-  background-color: #383838;
+  font-family: $fontText;
+  letter-spacing: 1.4;
+  background-color: var(--theme-color);
+  color: var(--text-color);
 }
 
 h1,
